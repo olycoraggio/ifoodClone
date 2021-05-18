@@ -89,7 +89,7 @@ class BottomNavigatorItemComponent extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+        padding: const EdgeInsets.only(top: 5, bottom: 10, left: 4, right: 4),
         child: Column(
           children: [
             AppIcon(

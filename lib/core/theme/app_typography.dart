@@ -39,4 +39,11 @@ class AppTypography {
           fontSize: 13,
         );
   }
+
+  static TextStyle sessionTitle(BuildContext context) {
+    return Theme.of(context).textTheme.bodyText1.copyWith(
+          fontWeight: FontWeight.w600,
+          fontSize: 16,
+        );
+  }
 }

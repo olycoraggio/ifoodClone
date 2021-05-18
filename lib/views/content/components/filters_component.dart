@@ -23,7 +23,7 @@ class _FiltersComponentDelegate extends SliverPersistentHeaderDelegate {
   Widget build(
       BuildContext context, double shrinkOffset, bool overlapsContent) {
     return Container(
-      color: Colors.black,
+      color: Colors.white,
       height: 50,
       child: ListView(
         physics: BouncingScrollPhysics(),
@@ -94,7 +94,7 @@ class FilterItemComponent extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(32),
-            color: Colors.black,
+            color: Colors.white,
             border: Border.all(
               color: AppColors.grey300,
             )),
